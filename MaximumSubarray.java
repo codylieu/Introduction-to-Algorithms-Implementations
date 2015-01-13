@@ -9,7 +9,6 @@ public class MaximumSubarray {
     System.out.println(maximumSubarray(arr, 0, arr.length));
   }
 
-  // Google's question. It's an adaptation of Kadane's Algorithm AND I FUCKED IT UP.
   private static int maxWeightLost(int[] arr) {
     int maxSoFar = 0;
     int maxDifference = 0;
